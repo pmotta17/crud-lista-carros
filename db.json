@@ -1,0 +1,22 @@
+{
+  "carros": [
+    {
+      "marca": "Mercedes-Benz",
+      "modelo": "G63 AMG",
+      "ano": 2022,
+      "preco": 1950000,
+      "descricao": "O 4x4 chega com motor 4.0 V8 biturbo, de 585 cv de potência e 86,7 kgfm de torque, acoplado ao câmbio automático Speedshift de nove velocidades. Ele acelera de 0 a 100 km/h em 4,5 segundos e chega a 220 km/h de velocidade máxima.",
+      "url_foto": "https://image1.mobiauto.com.br/images/api/images/v1.0/97131527/transform/fl_progressive,f_jpg,q_50,w_700",
+      "id": 1
+    },
+    {
+      "marca": "Audi",
+      "modelo": "RS6",
+      "ano": 2022,
+      "preco": 1450000,
+      "descricao": "Segundo a marca alemã, a Audi RS6 atinge 250 km/h, velocidade máxima que só não é maior por ser limitada eletronicamente. No entanto, se o modelo estiver equipado com o pacote Dynamic, a máxima sobe para 280 km/h e alcança até 305 km/h com o kit Dynamic Package Plus A aceleração de 0 a 100 km/h é feita em 3,6 segundos.",
+      "url_foto": "https://cdn.motor1.com/images/mgl/zZ9Wq/s1/2020-audi-rs6-avant.jpg",
+      "id": 2
+    }
+  ]
+}

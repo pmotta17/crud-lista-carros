@@ -1,0 +1,19 @@
+<div class="p-5 flex flex-col m-auto gap-8 w-2/4">
+    <div class="bg-gray-400 flex flex-col justify-between align-middle p-8 rounded" *ngFor="let carro of carros">
+        <h3 class="text-gray-100 text-2xl">{{ carro.marca }} {{carro.modelo}}</h3>
+        <div class="flex flex-col gap-3">
+            <p>{{ carro.ano }}</p>
+            <p>{{ carro.preco | currency: 'BRL' }}</p>
+            <p class="text-xs">{{ carro.descricao }}</p>
+            <img src="{{ carro.url_foto }}" alt="{{ carro.marca }} {{carro.modelo}}" class="py-4 object-cover h-48 w-96">
+        </div>
+        <div class="flex gap-3">
+            <button (click)="edicao(carro.id)" class="px-2 py-4 rounded cursor-pointer bg-yellow-400 hover:opacity-80">
+                Editar
+            </button>
+            <button (click)="excluir(carro.id)" class="px-2 py-4 rounded cursor-pointer bg-red-700 hover:opacity-80">
+                Excluir
+            </button>
+        </div>
+    </div>
+</div>
